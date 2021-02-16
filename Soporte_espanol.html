@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<link rel="STYLESHEET" type="text/css" href="espanol/css/soporte.css"/>
+	<script src="espanol/formulario.js"></script>
+	<title>STEAM</title>
+</head>
+<body>
+	<div class="quieto">
+		<!--Barra de navegacion-->
+		<ul class="sidenav">
+			<li class="posicion_logo"><img src="espanol/imagenes/logo_steam.jpg" alt="logo" class="logo"></li>
+			<li><a href="principal_espanol.html">PRINCIPAL</a></li>
+			<li><a href="tienda_espanol.html">TIENDA</a></li>
+			<li><a class="active" href="Soporte_espanol.html">SOPORTE</a></li>
+			<li><a href="acercade_espanol.html">ACERCA DE</a></li>
+		</ul>
+	</div>
+	<!--Contenido home-->
+	<div class="content">
+		<div class="idiomas">
+			<button type="button" onclick="window.location.href='Soporte_euskera.html'">EUSKARA</button>
+			<button type="button" onclick="window.location.href='Soporte_ingles.html'">ENGLISH</button>
+		</div>			
+		<p class="imagen"><img src="espanol/imagenes/soporte.jpg" alt="1"></p>
+		<h2>SOPORTE DE TEKNOMAV</h2>
+		<h3>Que Incluye el servicio de Soporte?</h3>
+		<!--Contenido del soporte -->
+		<ul>
+			<li>Asesoramiento </li>
+			<li>Consultas sobre el metodo de pago</li>
+			<li>Resolucion de errores</li>
+			<li> Diagnostico de incidencias</li>
+			<li> Consultas sobre el funcionamiento</li>
+		</ul>
+		<h3>Preguntas frecuentes</h3>
+		<!--Contenido de las preguntas-->
+		<ul>
+			<li> Que puede ofrecerme esta web?</li>
+			<li>Ofrecemos los mejores videojuegos a un precio irresistible </li>
+			<li>Esta pagina web es confiable?</li>
+			<li>Efectivamente. En TeknoMav todos tus datos estaran seguros con nosotros</li>
+			<li>Debo estar registrado para hacer una compra?</li>
+			<li>Si. El registro es imprescindible para poder hacer cualquier operacion</li>
+			<li>En que puede beneficiarme este producto/servicio? </li>
+			<li>Si eres un Gamer esta pagina es para ti.</li>
+		</ul>
+		<form name="fvalida">
+			<table>
+				<tr>
+					<td>Nombre: </td>
+					<td><input type="text" name="nombre" size="20" maxlength="50"></td>
+				</tr>
+				<tr>
+					<td>Apellidos: </td>
+					<td><input type="text" name="apellidos" size="30" maxlength="100"></td>
+				</tr>
+				<tr>
+					<td>Correo electronico: </td>
+					<td><input type="text" name="correo" size="30" maxlength="100"></td>
+				</tr>
+				<tr>
+					<td>Telefono: </td>
+					<td><input type="text" name="telefono" size="20" maxlength="100" placeholder="+34 "> </td>
+				</tr>
+				<tr>
+					<td>Escribe tu problema: </td>
+					<td><textarea name="problema" rows="10" cols="100" placeholder="Escribe tu problema" ></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="button" value="Enviar" onclick="valida_envia()"></td>	
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="final">
+		<a href="mailto:Steam@empresa.aeg.eus"> Steam@empresa.aeg.eus </a>
+		<p>2020 Steam Corporation. Todos los derechos reservados. Todas las marcas registradas pertenecen a sus respectivos duenos en Espana y otros paises.</p>
+		<a href="principal_espanol.html">Principal</a>
+		<a href="tienda_espanol.html">Tienda</a>
+		<a href="Soporte_espanol.html">Soporte</a>
+		<a href="acercade_espanol.html">Acerca de</a>
+	</div>
+</body>
+</html>

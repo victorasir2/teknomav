@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="STYLESHEET" type="text/css" href="euskera/css/soporte.css"/>
+		<title>STEAM</title>
+	</head>
+<body>
+	<div class="quieto">
+	<!--Barra de navegacion-->
+	<ul class="sidenav">
+	<li class="posicion_logo"><img src="euskera/imagenes/logo_steam.jpg" alt="logo" class="logo"></li>
+	<li><a href="principal_euskera.html">NAGUSIA</a></li>
+	<li><a href="tienda_euskera.html">DENDA</a></li>
+	<li><a class="active" href="Soporte_euskera.html">LAGUNTZA</a></li>
+	<li><a href="acercade_euskera.html">GURE INFORMAZIOA</a></li>
+	</ul>
+	</div>
+	<!--Contenido home-->
+	<div class="content">
+		<div class="idiomas">
+			<button type="button" onclick="window.location.href='Soporte_espanol.html'">GAZTELERAZ</button>
+			<button type="button" onclick="window.location.href='Soporte_ingles.html'">INGELESA</button>
+		</div>
+		<p class="imagen"><img src="euskera/imagenes/soporte.jpg" alt="logo"></p>
+		<h2>STEAM LAGUNTZA</h2>
+		<h3>Zer dakar Laguntza zerbitzuak?</h3>
+		<!--Contenido del soporte -->
+		<ul>
+			<li>Aholkuak </li>
+			<li>Ordainketa moduari buruzko kontsultak</li>
+			<li>Arazoak konpontzea</li>
+			<li> Gorabeheren diagnostikoa</li>
+			<li>Eragiketari buruzko kontsultak</li>
+		</ul>
+		<h3>Maiz egiten diren galderak</h3>
+		<!--Contenido de las preguntas-->
+		<ul>
+			<li> Zer eskain diezaioke webgune honek?</li>
+			<li>Bideo-joko onenak eskaintzen ditugu prezio paregabean</li>
+			<li>Webgune hau fidagarria al da?</li>
+			<li>Eraginkortasunez. TeknoMav-en zure datu guztiak seguruak izango dira gurekin</li>
+			<li>Izena eman behar al dut erosketa egiteko?</li>
+			<li>Bai. Erregistroa ezinbestekoa da edozein eragiketa egin ahal izateko</li>
+			<li>Zein mesede egin diezaioke produktu / zerbitzu honi?</li>
+			<li>Jokalaria bazara orri hau zuretzat da.</li>
+		</ul>
+		<form action="ejemplo.php" method="get">
+			<label for="name">Izena: <span class="required">*</span></label><br>
+			<input type="text" id="name" name="name" value="" placeholder="Luis" required autofocus /><br>
+			<label for="name">Abizena: <span class="required">*</span></label><br>
+			<input type="text" id="surname" name="name" value="" placeholder="Felipe Guerra" required />
+			<br>
+			<label for="email">Posta helbidea: <span class="required">*</span></label><br>
+			<input type="email" id="email" name="email" placeholder="steam@aeg.eus" required />
+			<br>
+			<label for="telefono">Mugikorra: </label><br>
+			<input type="tel" id="telefono" name="telefono" placeholder="943429612″ "/>
+			<br>
+			<label for="telefono">Pasahitza: <span class="required">*</span></label><br>
+			<input id="pass" name="pass" type="password" required />
+			<br>
+			<label for="telefono">Errepikatu pasahitza: <span class="required">*</span></label><br>
+			<input id="pass2" name="pass2" type="password" required />
+		</form>
+		<h3>Idatzi zure arazoa hemen:</h3>
+		<textarea name="comentarios" rows="10" cols="128">Idatzi zure arazoa hemen:</textarea>
+		<br>
+		<!-- Mandara una alerta de que su comentario se ha enviado.(No es real)-->
+		<button onClick="alert('Formuario enviado con exito')">Bidali iruzkina</button>
+	</div>
+	<div class="final">
+		<a href="mailto:Steam@empresa.aeg.eus"> Steam@empresa.aeg.eus </a>
+		<p>2020 Steam Corporation. Eskubide guztiak erreserbatuak. Marka guztiak Espainiako eta beste herrialde batzuetako jabeenak dira.</p>
+		<a href="principal_euskera.html">Nagusia</a>
+		<a href="tienda_euskera.html">Denda</a>
+		<a href="Soporte_euskera.html">Euskarari</a>
+		<a href="acercade_euskera.html">Gure Informazioa</a>
+	</div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<link rel="STYLESHEET" type="text/css" href="ingles/css/soporte.css"/>
+<title>STEAM</title>
+</head>
+<body>
+<div class="quieto">
+<!--Barra de navegacion-->
+<ul class="sidenav">
+<li class="posicion_logo"><img src="ingles/imagenes/logo_steam.jpg" alt="logo" class="logo"></li>
+<li><a href="principal_ingles.html">HOME</a></li>
+<li><a href="tienda_ingles.html">SHOP</a></li>
+<li><a class="active" href="Soporte_ingles.html">SUPPORT</a></li>
+<li><a href="acercade_ingles.html">ABOUT US</a></li>
+</ul>
+</div>
+<!--Contenido home-->
+<div class="content">
+<div class="idiomas">
+<button type="button" onclick="window.location.href='Soporte_euskera.html'">EUSKARA</button>
+<button type="button" onclick="window.location.href='Soporte_espanol.html'">ESPANOL</button>
+</div>
+<p class="imagen"><img src="ingles/imagenes/soporte.jpg" alt="foto"></p>
+<h2>SUPPORT</h2>
+<h3>What does the Support service include?</h3>
+<!--Contenido del soporte -->
+<ul>
+<li>Advice </li>
+<li>Questions about the payment method</li>
+<li>Troubleshooting</li>
+<li>Incident diagnosis</li>
+<li>Inquiries about the operation</li>
+</ul>
+<h3>Frequent questions</h3>
+<!--Contenido de las preguntas-->
+<ul>
+<li> What can this website offer me?</li>
+<li>We sell the best video games for the best price on the market.</li>
+<li>Is this website reliable?</li>
+<li>Of course. In  Steam all your data will be safe.</li>
+<li>Do I have to be registered to make a purchase?</li>
+<li>Yes. The registration is essential to do any operation.</li>
+<li>How can this product / service benefit me? </li>
+<li>If you are a Gamer this page is for you.</li>
+</ul>
+<form action="ejemplo.php" method="get">
+<label for="name">Name: <span class="required">*</span></label><br>
+<input type="text" id="name" name="name" value="" placeholder="Luis" required autofocus /><br>
+<label for="name">Surnames: <span class="required">*</span></label><br>
+<input type="text" id="surname" name="name" value="" placeholder="Felipe Guerra" required />
+<br>
+<label for="email">Gmail address: <span class="required">*</span></label><br>
+<input type="email" id="email" name="email" placeholder="steam@aeg.eus" required />
+<br>
+<label for="telefono">Phone number: </label><br>
+<input type="tel" id="telefono" name="telefono" placeholder="943429612″ "/>
+<br>
+<label for="telefono">Password: <span class="required">*</span></label><br>
+<input id="pass" name="pass" type="password" required />
+<br>
+<label for="telefono">Repeat Password: <span class="required">*</span></label><br>
+<input id="pass2" name="pass2" type="password" required />
+</form>	
+<h3> Write your problem here:</h3>
+<textarea name="comentarios" rows="10" cols="128">Problem:</textarea>
+<br>
+<!-- Mandara una alerta de que su comentario se ha enviado.(No es real)-->
+<button onClick="alert('Formuario enviado con exito')">Send a comment</button>
+</div>
+<div class="final">
+<a href="mailto:Steam@empresa.aeg.eus"> Steam@empresa.aeg.eus </a>
+<p>2020 Steam Corporation. All rights reserved. All trademarks belong to their respective owners in Spain and other countries.</p>
+<a href="principal_ingles.html">HOME</a>
+<a href="tienda_ingles.html">SHOP</a>
+<a href="Soporte_ingles.html">SUPPORT</a>
+<a href="acercade_ingles.html">ABOUT US</a>
+</div>
+</body>
+</html>
